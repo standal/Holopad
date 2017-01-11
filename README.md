@@ -1,6 +1,8 @@
 # Holopad
 Holopad Minecraft 1.7.10 AE2 Spatial Pylon+CC
 
+![](kepek/front.jpg)
+
 # Mi is ez 
 
 Minecraft 1.7.10-ben az [Applied Energistics 2.](http://ae-mod.info/) [Spatial Pylon](http://ae-mod.info/Spatial-Containment-Structure/)-okkal körül határolt területet tudjuk Spatial Storage Cellekbe menteni és utána bármikor előhozni. A vezérlés LUA scyptel [ComputerCraft] (http://www.computercraft.info/) felhasználásával, 7*3-as érintő kijelzőn.
@@ -66,7 +68,7 @@ A * jelölt blokkok variálhatok
 * A computerben és a turtle-ben is "startup" paranccsal indíthatok a programok, alap esetben automatikusan elindulnak. 
 * Leállítani a "CTRL+T" nyomva tartásával szakíthatok meg.
 
-# [Személyre szabás]
+# Személyre szabás
 ```
 >edit startup
 ```
