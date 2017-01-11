@@ -68,6 +68,19 @@ A * jelölt blokkok variálhatok
 * A computerben és a turtle-ben is "startup" paranccsal indíthatok a programok, alap esetben automatikusan elindulnak. 
 * Leállítani a "CTRL+T" nyomva tartásával szakíthatok meg.
 
+# Program használata 
+* Szoba létrehozás
+	* kiválasztjuk a helyet a kijelzőn 
+	* click a kiválasztot gombon
+	* megvárjuk míg betölt "Loading"
+	* megjelenik a "Close" felirat már a Cell a helyén van 
+	* most már építkezhetünk a Pylonokkal határolt területen
+	
+	> *nem minden módot kezel sajnos*
+	
+	* ha úgy érezzük kész vagyunk akkor click a "Close" feliratra és már el is menetük
+	* a szoba nevének módosítása a személyre szabásnál olvasható 
+
 # Személyre szabás
 ```
 >edit startup
