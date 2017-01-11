@@ -9,13 +9,13 @@
 --# By. Standal
 os.loadAPI ("lib/touchpoint")
 
-
+mon = f.periphSearch ("monitor")
 local
 buttons = touchpoint.new ("monitor")
 close = touchpoint.new ("monitor")
 loading = touchpoint.new ("monitor")
 t = touchpoint.new ("monitor")
-mon = f.periphSearch ("monitor")
+
 mon.setTextScale (0.5)
 local modem = peripheral.wrap ("right")
 t = touchpoint.new ("monitor")
