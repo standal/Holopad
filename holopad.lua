@@ -1,18 +1,19 @@
---# Find an attached monitor, open modem and rednet!
+--# Meg kell változtatni a monitor elhelyezését ha nem a computer fölött van!
+--# Alap esetben a Wireless Modem ball oldalon van
 --# Add wireless turtle pastebin/bwGkEmHx "autorun"
 --# Monitor size 3X7
 --# Run computer startup
 --# By. Standal
 os.loadAPI ("lib/touchpoint")
 local
-buttons = touchpoint.new ("top")  --# Monitor megkeresése
-close = touchpoint.new ("top")  --# Monitor megkeresése
-loading = touchpoint.new ("top")  --# Monitor megkeresése
-t = touchpoint.new ("top")  --# Monitor megkeresése
-mon = peripheral.wrap ("top")  --# Monitor megkeresése
+buttons = touchpoint.new ("top")  --# Monitor megkeresése ha nem felete van!
+close = touchpoint.new ("top")  --# Monitor megkeresése ha nem felete van!
+loading = touchpoint.new ("top")  --# Monitor megkeresése ha nem felete van!
+t = touchpoint.new ("top")  --# Monitor megkeresése ha nem felete van!
+mon = peripheral.wrap ("top")  --# Monitor megkeresése ha nem felete van!
 mon.setTextScale (0.5)
-local modem = peripheral.wrap ("right")  --# Szabadon hagyni
-t = touchpoint.new ("top")  --# Monitor megkeresése
+local modem = peripheral.wrap ("right")  --# Szabadon hagyni!
+t = touchpoint.new ("top")  --# Monitor megkeresése ha nem felete van!
 rednet.open ("left")  --#Wireless Modem ball oldalon
 active = false
 program = 0
@@ -86,10 +87,10 @@ function drawUI ()
 	term.setTextColor (32768)
 	term.setCursorPos (64, 8)
 	term.write (math.random (1000, 9999) .. "-" .. math.random (100, 999))
-	term.setCursorPos (83, 3)
+	term.setCursorPos (83, 2)
 	term.write (math.random (1000, 9999) .. "-" .. math.random (100, 999))
 	term.setBackgroundColor (8)
-	term.setCursorPos (64, 3)
+	term.setCursorPos (64, 2c)
 	term.write (math.random (1000, 9999) .. "-" .. math.random (100, 999))
 	term.setCursorPos (83, 8)
 	term.write (math.random (1000, 9999) .. "-" .. math.random (100, 999))
