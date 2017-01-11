@@ -1,24 +1,18 @@
---# Add pastebin/ekn7fgXg "touchpoint"
---# Add pastebin/5UweQ8GF "holodeckicon" 
---# Add pastebin/8N4wsgmg "buttons"
 --# Find an attached monitor, open modem and rednet!
 --# Add wireless turtle pastebin/bwGkEmHx "autorun"
 --# Monitor size 3X7
---# Run computer holopad
---# load the touchpoint API
+--# Run computer startup
 --# By. Standal
 os.loadAPI ("lib/touchpoint")
-
-mon = f.periphSearch ("monitor")
 local
-buttons = touchpoint.new ("monitor")
-close = touchpoint.new ("monitor")
-loading = touchpoint.new ("monitor")
-t = touchpoint.new ("monitor")
-
+buttons = touchpoint.new ("monitor_0")
+close = touchpoint.new ("monitor_0")
+loading = touchpoint.new ("monitor_0")
+t = touchpoint.new ("monitor_0")
+mon = peripheral.wrap ("monitor_0")
 mon.setTextScale (0.5)
 local modem = peripheral.wrap ("right")
-t = touchpoint.new ("monitor")
+t = touchpoint.new ("monitor_0")
 rednet.open ("left")
 active = false
 program = 0
