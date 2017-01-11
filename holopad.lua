@@ -10,8 +10,7 @@
 os.loadAPI ("lib/touchpoint")
 
 -- Monitor
-local monitor
-monitor = f.periphSearch ("monitor")
+local monitor = f.periphSearch ("monitor")
 if monitor == null then
 	error ("No valid monitor was found")
 end
