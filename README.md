@@ -6,7 +6,7 @@ Holopad Minecraft 1.7.10 AE2 Spatial Pylon+CC
 Minecraft 1.7.10-ben az [Applied Energistics 2.](http://ae-mod.info/) [Spatial Pylon](http://ae-mod.info/Spatial-Containment-Structure/)-okkal körül határolt területet tudjuk Spatial Storage Cellekbe menteni és utána bármikor előhozni. A vezérlés LUA scyptel [ComputerCraft] (http://www.computercraft.info/) felhasználásával, 7*3-as érintő kijelzőn.
 
 # Felhasznált anyagok
-> A * jelölt blokok variálhatok
+
 * ComputerCraft 
 	* 21 db Advanced Monitor
 	* 1 db Advanced Computer
@@ -19,23 +19,27 @@ Minecraft 1.7.10-ben az [Applied Energistics 2.](http://ae-mod.info/) [Spatial P
 	* 256 db Spatial Pylon *
 	* 6 db 128-as Spatial Storage Cell *
 	* Smart és Dense Cable
+```
+A * jelölt blokkok variálhatok 
+```
 
-# Épités
+
+# Építés
 * Alap helyzetben
 	* 19*19-es terület itt helyezzük el a Spatial Pylon-okat 9-es blokk magaságban 
-	* össze kötjük az oszlopok alját a képen látható modon 8-as csoportokban sima Smart Cabel-al
+	* össze kötjük az oszlopok alját a képen látható módon 8-as csoportokban sima Smart Cabel-al
 	* A Dense Cable lesz a gerinc ehhez csatlakoztatjuk a 4 db 8-as csoport Spatial Pylon-t
-	* Csatlakoztatjuk Az ME Controllert a gerinchez a szóbán kivül
-	* A controller-hez csatlakoztatjuk a Spatial IO Portot és az Energy Cell-eket
+	* Csatlakoztatjuk Az ME Controllert a gerinchez a szóbán kívül
+	* A kontrollerhez csatlakoztatjuk a Spatial IO Portot és az Energy Cell-eket
 	
-	> *A müködéshez szükséges energia 6,48 MRF, ezt 2 db Dense Energi Cell képes biztositani nekünk!*
+	> *A működéshez szükséges energia 6,48 MRF, ezt 2 db Dense Energi Cell képes biztositani nekünk!*
 	
 	* A Spatial IO Porthoz tesszük le a Turtle-t
-	* Megépitjük a 7*3-as Advanced Monitort
+	* Megépítjük a 7*3-as Advanced Monitort
 	* Alá tesszük az Advance Computert
 	* Az Advanced Computer ball oldalára felrakjuk a Wireless Modemet
 	
-	> *Ha nem igy helyezzük el a programot modositani kell a személyre szabás pontban olvasható modon!
+	> *Ha nem igy helyezzük el a programot módosítani kell a személyre szabás pontban olvasható módon!
 	
 	* A jobb oldalát hagyjuk szabadon
 	
@@ -43,8 +47,8 @@ Minecraft 1.7.10-ben az [Applied Energistics 2.](http://ae-mod.info/) [Spatial P
 
 > *a kép az elhelyezésről*	
 	
-* Plusz lehetöség
-	* Az Advanced Computer hátulján redstone aktiv redstone jell jön ki amig a szoba be van töltve, erre akár tehetünk egy redstone jel küldöt amit ráköthetünk akár egy ajtora hogy amikor egy szoba aktív kinyiljon, amikor pedig éppen nem aktiv legyen csukva, ez persze nem kötelező!
+* Plusz lehetőség
+	* Az Advanced Computer hátulján redstone aktív redstone jel jön ki amig a szoba be van töltve, erre akár tehetünk egy redstone jel küldöt amit ráköthetünk akár egy ajtóra hogy amikor egy szoba aktív kinyíljon, amikor pedig éppen nem aktív legyen csukva, ez persze nem kötelező!
 	
 # Programok telepítése
 * Computer telepítés
@@ -59,14 +63,15 @@ Minecraft 1.7.10-ben az [Applied Energistics 2.](http://ae-mod.info/) [Spatial P
 > pastebin get bwGkEmHx startup
 > install
 ```
-# Program futtatás
-A computerben és a turtle-ben is "startup" parancsal indithatok a programok, alap esetben automatikusan elindulnak
+# Program futtatás/leállítása
+* A computerben és a turtle-ben is "startup" paranccsal indíthatok a programok, alap esetben automatikusan elindulnak. 
+* Leállítani a "CTRL+T" nyomva tartásával szakíthatok meg.
 
 # Személyre szabás
 ```
 >edit startup
 ```
-* ha más pozicioban van elhelyezve a monitor vagy a wireless modem a fentiekhez képest az alábi sorokat kell tetszölegessen modositani	
+* ha más pozícióban van elhelyezve a monitor vagy a wireless modem a fentiekhez képest az alábbi sorokat kell tetszőlegesen módosítani	
 	
 	```
 	>buttons = touchpoint.new ("monitor iránya esetleg a monitor megnevezése") 
@@ -78,7 +83,7 @@ A computerben és a turtle-ben is "startup" parancsal indithatok a programok, al
 	>rednet.open ("Wireless Modem helye nem lehet hátul és jobb oldalt!!")
 	```
 		
-* 6 szóbának van hely ezeket az alábbi sorokat modosítva nevezhetjük át
+* 6 szóbának van hely ezeket az alábbi sorokat módosítva nevezhetjük át
 		
 	```
 	>r1 = "szoba név megadása"
