@@ -9,18 +9,13 @@
 --# By. Standal
 os.loadAPI ("lib/touchpoint")
 
--- Monitor
-local monitor = f.periphSearch ("monitor")
-if monitor == null then
-	error ("No valid monitor was found")
-end
 
 local
 buttons = touchpoint.new ("monitor")
 close = touchpoint.new ("monitor")
 loading = touchpoint.new ("monitor")
 t = touchpoint.new ("monitor")
-mon = peripheral.wrap ("monitor")
+mon = f.periphSearch ("monitor")
 mon.setTextScale (0.5)
 local modem = peripheral.wrap ("right")
 t = touchpoint.new ("monitor")
