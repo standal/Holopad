@@ -18,7 +18,7 @@ Minecraft 1.7.10-ben az [Applied Energistics 2.](http://ae-mod.info/) [Spatial P
 	* 1 db ME Controller
 	* 2 db Dense Energy Cell 
 	* 1 db Spatial IO Port 
-	* 256 db Spatial Pylon *
+	* 252 db Spatial Pylon *
 	* 6 db 128-as Spatial Storage Cell *
 	* Smart és Dense Cable
 ```
@@ -26,8 +26,8 @@ A * jelölt blokkok variálhatok
 ```
 
 # Építés
-* Alap helyzetben
-	* 19*19 terület, itt helyezzük el a Spatial Pylon-okat 9-es blokk magaságban 
+* Alap helyzetben (maximális méret)
+	* 17*17 terület, itt helyezzük el a Spatial Pylon-okat 9-es blokk magaságban 
 	* össze kötjük az oszlopok alját a képen látható módon 8-as csoportokban sima Smart Cabel-al
 	* a Dense Cable lesz a gerinc ehhez csatlakoztatjuk a 4 db 8-as csoport Spatial Pylon-t
 	* csatlakoztatjuk Az ME Controllert a gerinchez a szóbán kívül
@@ -44,7 +44,7 @@ A * jelölt blokkok variálhatok
 	
 	* az Advanced Computer jobb oldalát hagyjuk szabadon
 	
-![](kepek/size.jpg)
+![](kepek/3.jpg)
 
 > *a kép az elhelyezésről*	
 	
