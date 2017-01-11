@@ -5,14 +5,14 @@
 --# By. Standal
 os.loadAPI ("lib/touchpoint")
 local
-buttons = touchpoint.new ("monitor_1")  --# Monitor megkeresése
-close = touchpoint.new ("monitor_1")  --# Monitor megkeresése
-loading = touchpoint.new ("monitor_1")  --# Monitor megkeresése
-t = touchpoint.new ("monitor_1")  --# Monitor megkeresése
-mon = peripheral.wrap ("monitor_1")  --# Monitor megkeresése
+buttons = touchpoint.new ("top")  --# Monitor megkeresése
+close = touchpoint.new ("top")  --# Monitor megkeresése
+loading = touchpoint.new ("top")  --# Monitor megkeresése
+t = touchpoint.new ("top")  --# Monitor megkeresése
+mon = peripheral.wrap ("top")  --# Monitor megkeresése
 mon.setTextScale (0.5)
 local modem = peripheral.wrap ("right")  --# Szabadon hagyni
-t = touchpoint.new ("monitor_1")  --# Monitor megkeresése
+t = touchpoint.new ("top")  --# Monitor megkeresése
 rednet.open ("left")  --#Wireless Modem ball oldalon
 active = false
 program = 0
