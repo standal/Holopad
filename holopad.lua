@@ -5,15 +5,15 @@
 --# By. Standal
 os.loadAPI ("lib/touchpoint")
 local
-buttons = touchpoint.new ("monitor_0")
-close = touchpoint.new ("monitor_0")
-loading = touchpoint.new ("monitor_0")
-t = touchpoint.new ("monitor_0")
-mon = peripheral.wrap ("monitor_0")
+buttons = touchpoint.new ("monitor_1")  --# Monitor megkeresése
+close = touchpoint.new ("monitor_1")  --# Monitor megkeresése
+loading = touchpoint.new ("monitor_1")  --# Monitor megkeresése
+t = touchpoint.new ("monitor_1")  --# Monitor megkeresése
+mon = peripheral.wrap ("monitor_1")  --# Monitor megkeresése
 mon.setTextScale (0.5)
-local modem = peripheral.wrap ("right")
-t = touchpoint.new ("monitor_0")
-rednet.open ("left")
+local modem = peripheral.wrap ("right")  --# Szabadon hagyni
+t = touchpoint.new ("monitor_1")  --# Monitor megkeresése
+rednet.open ("left")  --#Wireless Modem ball oldalon
 active = false
 program = 0
 
@@ -50,14 +50,14 @@ function writeNumbers ()
 end
 
 function drawUI ()
-	paintutils.drawFilledBox (1, 1, 8, 4, 16384)
-	paintutils.drawFilledBox (1, 6, 8, 9, 16384)
-	paintutils.drawFilledBox (2, 10, 8, 10, 16384)
-	paintutils.drawFilledBox (4, 11, 143, 11, 16384)
-	paintutils.drawFilledBox (1, 15, 8, 25, 16384)
-	paintutils.drawFilledBox (1, 27, 8, 39, 16384)
-	paintutils.drawFilledBox (2, 14, 8, 14, 16384)
-	paintutils.drawFilledBox (4, 13, 143, 13, 16384)
+	paintutils.drawFilledBox (1, 1, 8, 4, 8192)
+	paintutils.drawFilledBox (1, 6, 8, 9, 4096)
+	paintutils.drawFilledBox (2, 10, 8, 10, 4096)
+	paintutils.drawFilledBox (4, 11, 143, 11, 4096)
+	paintutils.drawFilledBox (1, 15, 8, 25, 8192)
+	paintutils.drawFilledBox (1, 27, 8, 39, 4096)
+	paintutils.drawFilledBox (2, 14, 8, 14, 8192)
+	paintutils.drawFilledBox (4, 13, 143, 13, 8192)
 	local icon = paintutils.loadImage ("lib/holodeckicon")
 	local buttons = paintutils.loadImage ("lib/buttons")
 	paintutils.drawImage (icon, 98, 3)
@@ -97,12 +97,12 @@ end
 
 close:add ("Close", nil, 10, 15, 143, 37, colors.red, colors.red)
 loading:add ("Loading...", nil, 10, 15, 143, 37, colors.gray, colors.gray)
-r1 = "Room 1"
-r2 = "Room 2"
-r3 = "Room 3"
-r4 = "Room 4"
-r5 = "Room 5"
-r6 = "Room 6"
+r1 = "Room 1" --#szoba nevek megadása
+r2 = "Room 2" --#szoba nevek megadása
+r3 = "Room 3" --#szoba nevek megadása
+r4 = "Room 4" --#szoba nevek megadása
+r5 = "Room 5" --#szoba nevek megadása
+r6 = "Room 6" --#szoba nevek megadása
 buttons:add (r1, nil, 10, 15, 53, 25, 8, 8)
 buttons:add (r2, nil, 55, 15, 98, 25, 2, 2)
 buttons:add (r3, nil, 100, 15, 143, 25, 8, 8)
