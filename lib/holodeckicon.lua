@@ -1,5 +1,5 @@
-1 1  11  1    11  111  111  11 1  1     1 1 1
-1 1 1  1 1   1  1 1  1 1   1   1 1      1 1 1
-111 1  1 1   1  1 1  1 11  1   11   111 1 111
-1 1 1  1 1   1  1 1  1 1   1   1 1      1   1
-1 1  11  111  11  111  111  11 1  1     1   1
+e e  ee  e    ee  eee  eee  ee e  e     e e e
+e e e  e e   e  e e  e e   e   e e      e e e
+eee e  e e   e  e e  e ee  e   ee   eee e eee
+e e e  e e   e  e e  e e   e   e e      e   e
+e e  ee  eee  ee  eee  eee  ee e  e     e   e
