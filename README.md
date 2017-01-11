@@ -23,32 +23,31 @@ Minecraft 1.7.10-ben az [Applied Energistics 2.](http://ae-mod.info/) [Spatial P
 A * jelölt blokkok variálhatok 
 ```
 
-
 # Építés
 * Alap helyzetben
-	* 19*19-es terület itt helyezzük el a Spatial Pylon-okat 9-es blokk magaságban 
+	* 19*19 terület, itt helyezzük el a Spatial Pylon-okat 9-es blokk magaságban 
 	* össze kötjük az oszlopok alját a képen látható módon 8-as csoportokban sima Smart Cabel-al
-	* A Dense Cable lesz a gerinc ehhez csatlakoztatjuk a 4 db 8-as csoport Spatial Pylon-t
-	* Csatlakoztatjuk Az ME Controllert a gerinchez a szóbán kívül
-	* A kontrollerhez csatlakoztatjuk a Spatial IO Portot és az Energy Cell-eket
+	* a Dense Cable lesz a gerinc ehhez csatlakoztatjuk a 4 db 8-as csoport Spatial Pylon-t
+	* csatlakoztatjuk Az ME Controllert a gerinchez a szóbán kívül
+	* a kontrollerhez csatlakoztatjuk a Spatial IO Portot és az Energy Cell-eket
 	
 	> *A működéshez szükséges energia 6,48 MRF, ezt 2 db Dense Energi Cell képes biztositani nekünk!*
 	
-	* A Spatial IO Porthoz tesszük le a Turtle-t
-	* Megépítjük a 7*3-as Advanced Monitort
-	* Alá tesszük az Advance Computert
-	* Az Advanced Computer ball oldalára felrakjuk a Wireless Modemet
+	* a Spatial IO Porthoz tesszük le a Turtle-t
+	* megépítjük a 7*3-as Advanced Monitort
+	* alá tesszük az Advance Computert
+	* az Advanced Computer ball oldalára felrakjuk a Wireless Modemet
 	
-	> *Ha nem igy helyezzük el a programot módosítani kell a személyre szabás pontban olvasható módon!
+	> *Ha nem igy helyezzük el a programot módosítani kell,  a személyre szabás  pontban olvasható módon!
 	
-	* A jobb oldalát hagyjuk szabadon
+	* az Advanced Computer jobb oldalát hagyjuk szabadon
 	
-![](kepek/size.jpg)
+[Elhelyezés](kepek/size.jpg)
 
 > *a kép az elhelyezésről*	
 	
 * Plusz lehetőség
-	* Az Advanced Computer hátulján redstone aktív redstone jel jön ki amig a szoba be van töltve, erre akár tehetünk egy redstone jel küldöt amit ráköthetünk akár egy ajtóra hogy amikor egy szoba aktív kinyíljon, amikor pedig éppen nem aktív legyen csukva, ez persze nem kötelező!
+	* Az Advanced Computer hátulján redstone aktív redstone jel jön ki, amig a szoba be van töltve egy szoba, erre akár tehetünk egy redstone jel küldöt amit ráköthetünk egy ajtóra, hogy amikor egy szoba aktív kinyíljon, amikor pedig nem aktív legyen csukva, ez persze nem kötelező!
 	
 # Programok telepítése
 * Computer telepítés
@@ -63,11 +62,11 @@ A * jelölt blokkok variálhatok
 > pastebin get bwGkEmHx startup
 > install
 ```
-# Program futtatás/leállítása
+# Program futtatás/Leállítása
 * A computerben és a turtle-ben is "startup" paranccsal indíthatok a programok, alap esetben automatikusan elindulnak. 
 * Leállítani a "CTRL+T" nyomva tartásával szakíthatok meg.
 
-# Személyre szabás
+# [Személyre szabás]
 ```
 >edit startup
 ```
@@ -94,3 +93,12 @@ A * jelölt blokkok variálhatok
 	>r6 = "szoba név megadása" 
 	```
 	
+# Program frissítése
+* jobb click a computeren 
+* nyomva tartjuk a CTRL+T a kurzort megjelenése után az alábbiakat írjuk be `>`
+
+```
+> install
+> startup
+```
+
