@@ -102,4 +102,4 @@ A * jelölt blokkok variálhatok
 > startup
 ```
 
-# [English](http://)
+[English](http://)
