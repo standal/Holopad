@@ -8,15 +8,16 @@
 --# load the touchpoint API
 --# By. Standal
 os.loadAPI ("lib/touchpoint")
+monitor = f.periphSearch ("monitor")
 local
-buttons = touchpoint.new ("monitor_0")
-close = touchpoint.new ("monitor_0")
-loading = touchpoint.new ("monitor_0")
-t = touchpoint.new ("monitor_0")
-mon = peripheral.wrap ("monitor_0")
+buttons = touchpoint.new ("monitor")
+close = touchpoint.new ("monitor")
+loading = touchpoint.new ("monitor")
+t = touchpoint.new ("monitor")
+mon = peripheral.wrap ("monitor")
 mon.setTextScale (0.5)
 local modem = peripheral.wrap ("right")
-t = touchpoint.new ("monitor_0")
+t = touchpoint.new ("monitor")
 rednet.open ("left")
 active = false
 program = 0
