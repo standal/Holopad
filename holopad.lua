@@ -7,7 +7,7 @@
 --# Run computer holopad
 --# load the touchpoint API
 --# By. Standal
-os.loadAPI ("touchpoint")
+os.loadAPI ("lib/touchpoint")
 local
 buttons = touchpoint.new ("monitor_0")
 close = touchpoint.new ("monitor_0")
