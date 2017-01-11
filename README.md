@@ -10,7 +10,7 @@ Minecraft 1.7.10-ben az [Applied Energistics 2.](http://ae-mod.info/) [Spatial P
 * ComputerCraft 
 	* 21 db Advanced Monitor
 	* 1 db Advanced Computer
-	* 1 db Advanced Wireless 
+	* 1 db Wireless Modem
 	* 1 db Advanced Wireless Turtle 
 * Applied Energistics 2	
 	* 1 db ME Controller
@@ -27,11 +27,19 @@ Minecraft 1.7.10-ben az [Applied Energistics 2.](http://ae-mod.info/) [Spatial P
 	* A Dense Cable lesz a gerinc ehhez csatlakoztatjuk a 4 db 8-as csoport Spatial Pylon-t
 	* Csatlakoztatjuk Az ME Controllert a gerinchez a szóbán kivül
 	* A controller-hez csatlakoztatjuk a Spatial IO Portot és az Energy Cell-eket
-	
+	* A Spatial IO Porthoz tesszük le a Turtle-t
+	* Megépitjük a 7*3-as Advanced Monitort
+	* Alá tesszük az Advance Computert
+	* Az Advanced Computer ball oldalára felrakjuk a Wireless Modemet
+	* A jobb oldalát hagyjuk szabadon
 	> *A müködéshez szükséges energia 6,48 MRF, ezt 2 db Dense Energi Cell képes biztositani nekünk!*
+	
+* Plusz egységek
+	* Az Advanced Computer hátulján redstone aktiv redstone jell jön ki amig a szoba be van töltve, erre akár tehetünk egy redstone jel küldöt amit ráköthetünk akár egy ajtora hogy amikor egy szoba aktív kinyiljon, amikor pedig éppen nem aktiv legyen csukva, ez persze nem kötelező!
 	
 ![](kepek/size.jpg)
 
 > *a kép az elhelyezésről*
 	
-	
+# Programok instalálása
+
