@@ -42,7 +42,7 @@ A * jelölt blokkok variálhatok
 	
 	* az Advanced Computer jobb oldalát hagyjuk szabadon
 	
-[Elhelyezés](kepek/size.jpg)
+![](kepek/size.jpg)
 
 > *a kép az elhelyezésről*	
 	
@@ -102,3 +102,4 @@ A * jelölt blokkok variálhatok
 > startup
 ```
 
+# [English](http://)
