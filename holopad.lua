@@ -8,7 +8,14 @@
 --# load the touchpoint API
 --# By. Standal
 os.loadAPI ("lib/touchpoint")
+
+-- Monitor
+local monitor
 monitor = f.periphSearch ("monitor")
+if monitor == null then
+	error ("No valid monitor was found")
+end
+
 local
 buttons = touchpoint.new ("monitor")
 close = touchpoint.new ("monitor")
