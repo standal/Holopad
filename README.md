@@ -57,12 +57,13 @@ A * jelölt blokkok variálhatok
 > label set Holopad
 > pastebin get SYmv2GYZ install
 > install
+> startup
 ```
 * Turtle telepítése
 ```
 > label set Rednet
 > pastebin get bwGkEmHx startup
-> install
+> startup
 ```
 # Program futtatás/Leállítása
 * A computerben és a turtle-ben is "startup" paranccsal indíthatok a programok, alap esetben automatikusan elindulnak. 
